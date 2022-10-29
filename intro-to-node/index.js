@@ -5,3 +5,4 @@ let mySuperHeroName = superheroes.random()
 let myVillainName = supervillains.random()
 
 console.log(myVillainName)
+console.log(mySuperHeroName)
