@@ -86,20 +86,20 @@
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
-  <form>
+  <form method="post" action="/">
     <img class="mb-4" src="images/web-api.jpeg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Sign up for a Newsletter</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control top" id="floatingInput" placeholder="Frist Name" required autofocus>
+      <input type="text" name="fName" class="form-control top" id="floatingInput" placeholder="Frist Name" required autofocus>
       <label for="floatingInput">First name</label>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control middle" id="floatingPassword" placeholder="Last Name" required>
+      <input type="text" name="lName" class="form-control middle" id="floatingPassword" placeholder="Last Name" required>
       <label for="floatingPassword">Last Name</label>
     </div>
     <div class="form-floating">
-        <input type="email" class="form-control bottom" id="floatingEmail" placeholder="Email" required>
+        <input type="email" name="email" class="form-control bottom" id="floatingEmail" placeholder="Email" required>
         <label for="floatingEmail">Email address</label>
       </div>
 
